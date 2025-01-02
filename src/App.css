@@ -103,9 +103,9 @@
   .menu-icon {
     display: block;
     cursor: pointer;
-    padding-right: 10px;
   }
   .hamburger{
+    padding-right: 10px;
     font-size: 30px;
     color: var(--text-color);
   }
