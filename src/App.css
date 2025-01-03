@@ -140,8 +140,9 @@
 
 /* Matchdat  */
 .match-container{
-  width: 340px;
+  width: 500px;
   height: 600px;
+  /* font-size: 20px; */
   /* border: 2px solid rgb(18, 16, 16); */
   /* background-color: orange; */
   margin: 10px auto;
@@ -201,6 +202,9 @@
 /* responsive  */
 
 @media (max-width: 600px) {
+  .match-container{
+    width: 340px;
+  }
   .logo{
     font-size: 25px ;
     padding-left: 10px;
