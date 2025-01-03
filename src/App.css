@@ -70,6 +70,62 @@
 }
 
 
+/*? Scorers component css is here  */
+.scorers-component{
+  display: flex;
+  flex-wrap: wrap;
+  width: 92%;
+  margin: 0 auto;
+}
+
+.single-player-score{
+  padding: 20px;
+  width: 100%;
+  padding: 20px ;
+  margin: 10px 0;
+
+}
+.goals-count ,.matches-count, .assist-count{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+
+}
+.color{
+  color: var(--main-color);
+
+}
+.pos{
+  color: rgb(85, 84, 84);
+  font-weight: normal;
+}
+.matches-count{
+  margin-top: 20px;
+}
+.light{
+  color: #474444;
+  font-weight: normal;
+  /* color: #000; */
+}
+
+.search-player{
+  width: 92%;
+  margin: 30px auto 10px auto;
+  display: block;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+
+.no-found{
+  text-align: center;
+  display: block;
+  color: red;
+  width: 100%;
+}
+
+
+
+
 
 
 
@@ -106,7 +162,7 @@
   }
   .hamburger{
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--text-color);
   }
   .close-nav{
