@@ -45,8 +45,21 @@
 }
 
 .logo {
+  overflow: none;
   font-size: 30px;
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+.logo-img{
+  height: 60px;
+  width: 70px;
+  border-radius: 50%;
+  background: none; 
+  border: none;
+  vertical-align: center;
+  margin-top: 6px;
+  
 }
 
 .menu-icon {

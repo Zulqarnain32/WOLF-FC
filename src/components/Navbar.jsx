@@ -25,6 +25,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div className="logo">
+        <div><img src="/assets/logo.png" className='logo-img'/></div>
         <h4>WOLF FC</h4>
       </div>
       <div className="menu-icon" onClick={handleShowNavbar}>
