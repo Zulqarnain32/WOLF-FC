@@ -138,9 +138,48 @@
 
 
 
+/* Matchdat  */
+.match-container{
+  width: 340px;
+  height: 600px;
+  /* border: 2px solid rgb(18, 16, 16); */
+  /* background-color: orange; */
+  margin: 10px auto;
+}
+.header{
+  height: 70px;
+  background-color: var(--main-color);
+  background-color: rgb(193, 22, 113);
+  /* color: var(--main-color); */
+  word-spacing: 2px;
+  border: none;
+  
+}
+.teams{
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 10px;
 
+}
+.teams>div{
+  background-color: var(--main-color);
+  color: var(--text-color);
+  line-height: 60px;
+  padding: 0 20px;
+  font-size: 23px;
+}
+.players h2{
+  text-align: center;
+  margin: 10px 0;
+}
 
-
+.players p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
 
 
 
@@ -234,3 +273,5 @@
   object-fit: cover;
   width: 100%;
 }
+
+
